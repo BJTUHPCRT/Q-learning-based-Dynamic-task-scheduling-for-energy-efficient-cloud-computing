@@ -4,7 +4,7 @@ We open sourced the code of our team’s paper ‘Q-learning based Dynamic task 
 ## Paper link: 
 https://www.sciencedirect.com/science/article/abs/pii/S0167739X19313858
 
-## Environmet
+## Environment
  eclipse + java or you can run as a jar file.
 
 ## Main code file introduction
