@@ -1,8 +1,27 @@
 # Q-learning-based-Dynamic-task-scheduling-for-energy-efficient-cloud-computing
-We open sourced the code of our team’s paper ‘Q-learning based Dynamic task scheduling for energy efficient cloud computing’, so as to facilitate more scholars to understand the implementation details of the QEEC framework in cloud enviroment. 
+We propose a Q-learning based task scheduling framework for energy-efficient cloud computing (QEEC).
+QEEC has two phases. In the first phase a centralized task dispatcher is used to implement the M/M/S queueing model, by which the arriving user requests are assigned to each server in a cloud. In the second phase a Q-learning based scheduler on each server first prioritizes all the requests by task laxity and task life time, then uses a continuously-updating policy to assign tasks to virtual machines, applying incentives to reward the assignments that can minimize task response time and maximize each server’s CPU utilization. 
 
-## Paper link: 
-https://www.sciencedirect.com/science/article/abs/pii/S0167739X19313858
+We open sourced the code of our team’s paper ‘Q-learning based Dynamic task scheduling for energy efficient cloud computing, so as to facilitate more scholars to understand the implementation details of the QEEC framework in CloudSim cloud enviroment. 
+
+## Citation: 
+Our paper has been pulished in Future Generation Computer System and you can cite as follow:
+@article{DingFZKYZ20,
+  author    = {Ding Ding and
+               Xiaocong Fan and
+               Yihuan Zhao and
+               Kaixuan Kang and
+               Qian Yin and
+               Jing Zeng},
+  title     = {Q-learning based dynamic task scheduling for energy-efficient cloud
+               computing},
+  journal   = {Future Generation Computer System},
+  volume    = {108},
+  pages     = {361--371},
+  year      = {2020},
+  url       = {https://doi.org/10.1016/j.future.2020.02.018},
+  doi       = {10.1016/j.future.2020.02.018},
+}
 
 ## Environment
  eclipse + java or you can run as a jar file.
